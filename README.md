@@ -15,8 +15,6 @@ BusStationX is a Python-based bus station management system that automates trip 
 
 - Trip Lifecycle: Create, modify, and cancel trips with seat tracking
 
-- Automatic Status Updates: Trip status automatically updates after departure
-
 - Driver Assignment: Assign drivers to trips with conflict prevention
 
 - Cascade Cancellation: Canceling a trip automatically cancels all associated tickets
@@ -37,13 +35,13 @@ BusStationX is a Python-based bus station management system that automates trip 
 
 - Persian Calendar Support: Integrated jdatetime for Persian calendar functionality
 
+- Input Validation: Comprehensive validation ensures data integrity
+
 - CSV-Based Storage: No database required - uses CSV files for data persistence
 
 - Advanced Search: Search and filter across users, drivers, trips, and tickets
 
 - Smart Sorting: View sorted lists with detailed information display
-
-- Quick Access: Click on any ID, name, or bus plate to view detailed information
 
 - Comprehensive Status Tracking: Real-time status monitoring for drivers, trips, and tickets
 
@@ -60,13 +58,11 @@ BusStationX is a Python-based bus station management system that automates trip 
 
 ### Automated Workflows
 
-- Status Automation: Automatic trip status updates post-departure
+- Automatic Status Updates: Trip status automatically updates after departure
 
 - Cascade Operations: Firing drivers or canceling trips automatically handles all dependencies
 
 - Real-time Updates: Instant reflection of changes across the system
-
-- Input Validation: Comprehensive validation ensures data integrity
 ---
 
 ## Installation
